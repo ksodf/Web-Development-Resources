@@ -37,12 +37,16 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v2
+        uses: lycheeverse/lychee-action@v2.4.1
         with:
           args: >-
             --verbose
             --no-progress
-            --accept 200,204,206,301,302,403,429
+            --accept 200,204,206,301,302
+            --accept 403
+            --accept 429
             '**/*.md'
+          # 403 is accepted because GitHub and some sites return Forbidden for
+          # unauthenticated bots. 429 is accepted to avoid failing on rate-limited requests.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
