@@ -66,12 +66,36 @@ A curated list of useful tools, libraries, and learning resources for web develo
 - [date-fns](https://date-fns.org/) – Modern JavaScript date utility library.
 - [Axios](https://axios-http.com/) – Promise-based HTTP client for the browser and Node.js.
 - [Zod](https://zod.dev/) – TypeScript-first schema declaration and validation library.
+- [Immer](https://immerjs.github.io/immer/) – Create the next immutable state by mutating the current one.
+- [RxJS](https://rxjs.dev/) – Reactive Extensions Library for JavaScript.
+- [uuid](https://github.com/uuidjs/uuid) – Generate RFC-compliant UUIDs in JavaScript.
+- [Chart.js](https://www.chartjs.org/) – Simple yet flexible JavaScript charting library.
 
 ### Frameworks
 - [React](https://react.dev/) – A JavaScript library for building user interfaces.
 - [Vue.js](https://vuejs.org/) – The progressive JavaScript framework.
 - [Svelte](https://svelte.dev/) – A compiler-based UI framework that writes less code.
 - [Angular](https://angular.io/) – Platform for building mobile and desktop web apps.
+- [Solid.js](https://www.solidjs.com/) – A declarative, efficient, and flexible JavaScript library for building UIs.
+- [Preact](https://preactjs.com/) – Fast 3kB alternative to React with the same modern API.
+
+### Testing
+- [Vitest](https://vitest.dev/) – Blazing fast unit testing framework powered by Vite.
+- [Jest](https://jestjs.io/) – Delightful JavaScript testing framework with a focus on simplicity.
+- [Testing Library](https://testing-library.com/) – Simple and complete testing utilities that encourage good testing practices.
+- [Playwright](https://playwright.dev/) – Reliable end-to-end testing for modern web apps.
+- [Cypress](https://www.cypress.io/) – Next generation front end testing tool for web.
+
+### TypeScript
+- [TypeScript](https://www.typescriptlang.org/) – Strongly typed programming language that builds on JavaScript.
+- [ts-reset](https://github.com/total-typescript/ts-reset) – A 'CSS reset' for TypeScript, improving types for common JavaScript APIs.
+- [type-fest](https://github.com/sindresorhus/type-fest) – A collection of essential TypeScript types.
+
+### State Management
+- [Zustand](https://zustand-demo.pmnd.rs/) – A small, fast, and scalable state management solution for React.
+- [Pinia](https://pinia.vuejs.org/) – The intuitive store for Vue.js.
+- [Jotai](https://jotai.org/) – Primitive and flexible state management for React.
+- [Redux Toolkit](https://redux-toolkit.js.org/) – The official, opinionated toolset for efficient Redux development.
 
 ---
 
